@@ -4,6 +4,10 @@
     font-family: 'Libre Baskerville', serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 #title {
     background-color: #ff4c68;
     height: 510px;
@@ -44,6 +48,17 @@ a {
     transform: rotate(20deg);
     position: absolute;
     right: 25%;
+}
+
+@media (max-width:668px) {
+    #title {
+        text-align: center;
+    }
+
+    /* .rotate-img {
+        position: static;
+        transform: rotate(0);
+    } */
 }
 
 /* features section */
@@ -99,4 +114,26 @@ a {
 
 .btn-margin {
     margin-top: 15%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    height: 200px;
+}
+
+#cta button{
+    width:10%;
+}
+
+.btn1{
+    position: relative;
+    left:auto;
+    display: inline-block;
+}
+
+.btn2 {
+    position: relative;
+    right: auto;
+    display: inline-block;
 }
