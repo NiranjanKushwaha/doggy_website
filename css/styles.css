@@ -1,0 +1,102 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    height: 510px;
+}
+
+.navbar {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.container-fluid {
+    padding: 3% 8%;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+a {
+    cursor: pointer;
+}
+
+.col-md-6 h1 {
+    font-family: 'Diplomata SC', cursive;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-right: 5%;
+    color: #fff;
+}
+
+.rotate-img {
+    transform: rotate(20deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* features section */
+#features {
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-icons {
+    color: #ff4c68;
+}
+
+.features-icons:hover {
+    color: #f30629;
+}
+
+/* testimonials section */
+#testimonials {
+    margin-top: 30px;
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.dog-img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+#press {
+    text-align: center;
+    padding-top: 80px;
+    background-color: #ff4c68;
+}
+
+.press-imgs {
+    padding-bottom: 70px;
+    margin: 0px 40px 20px;
+    width: 15%;
+}
+
+.card {
+    height: 22rem;
+}
+
+.btn-margin {
+    margin-top: 15%;
+}
